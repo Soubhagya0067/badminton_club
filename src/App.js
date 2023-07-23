@@ -1,21 +1,22 @@
-
-import './App.css';
+import "./App.css";
+import LeftContainer from "./components/LeftContainer";
+import PaymentContainer from "./components/PaymentContainer";
+import RightContainer from "./components/RightContainer";
 
 function App() {
   return (
     <div className="App">
       <h1>TCS Badminton Club</h1>
-      <div className="main-container">
-        <div className="left-container"></div>
-        <div className="right-container">
-          <div className="member-container">
-            <h2>Total Members : 70</h2>
-            <div className="active-members">
-              <h2>Active Members</h2>
-            </div>
-          </div>
-        </div>
+      <div className="notice-container">
+        <h4>
+          Please contribute Rs 200/- each month towards Monthly subscription.
+        </h4>
       </div>
+      <div className="main-container">
+        <LeftContainer />
+        <RightContainer />
+      </div>
+      <PaymentContainer />
     </div>
   );
 }

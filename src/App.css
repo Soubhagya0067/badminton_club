@@ -1,38 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .App {
+  height: 100vh;
+  width: 100vw;
   text-align: center;
+  background: linear-gradient(to bottom, blue 40%, lightblue);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.notice-container{
+  background-color: lightgreen;
+  margin: 10px;
+  padding: 10px;
+  font-size: 14px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-container{
+  background-color: red;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  margin: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.left-container{
+  background-color: lightgrey;
+  padding: 10px;
+  height: auto;
+  width: 70%;
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+.balance-container{
+  background-color: green;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.amount-container{
+  background-color: orange;
+  padding: 10px;
+  margin:10px;
+  border-radius: 20px;
+  font-size: 14px;
+  border: 2px solid white;
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+.counter{
+  font-size: 30px;
+  font-weight: bold;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+.graph-container{
+  background-color: yellow;
+  padding: 10px;
+}
+.payment-tracker{
+  background-color: pink;
+  padding: 10px;
+  margin: 10px;
+}
+.right-container{
+  background-color: lightgrey;
+  padding: 10px;
+  height: auto;
+  width: 20%;
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+.member-container{
+  background-color: green;
+  padding: 10px;
+  height: 100%;
+}
+.active-members{
+  background-color: purple;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+.member-list{
+  background-color: lime;
+  padding: 10px;
+  display: grid;
+}
+.member-table{
+  background-color: red;
+  display: grid;
+}
+.member-name{
+  background-color: lightcyan;
+  list-style: none;
+  border: 1px solid;
+  padding: 5px;
+  font-weight: normal;
+}
+.payments{
+  background-color: lime;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.payment-table{
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+}
+.table-header{
+  background-color: orange;
+  list-style: none;
+  border: 1px solid;
+  padding: 5px;
+  font-weight: bold;
+  width: 80px;
+}
+.payment-table-data{
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+}
+.table-header-data{
+  background-color: cyan;
+  list-style: none;
+  border: 1px solid;
+  padding: 5px;
+  width: 80px;
+}
+.table-header-data-name{
+  background-color: cyan;
+  list-style: none;
+  border: 1px solid;
+  padding: 5px;
+  width: 300px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.table-header-name{
+  background-color: orange;
+  list-style: none;
+  border: 1px solid;
+  padding: 5px;
+  font-weight: bold;
+  width: 300px;
 }
