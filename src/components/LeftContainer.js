@@ -1,4 +1,6 @@
 import React from "react";
+import CollectionGraph from "./CollectionGraph";
+import Chart from './Chart'
 
 const LeftContainer = () => {
   return (
@@ -19,6 +21,7 @@ const LeftContainer = () => {
       </div>
       <div className="graph-container">
         <h2>Collection tracker</h2>
+        <Chart />
       </div>
       
     </div>

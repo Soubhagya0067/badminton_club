@@ -12,19 +12,10 @@ const RightContainer = () => {
           <h2>Active Members</h2>
           <div className="member-list">
           <ul className="member-table">
-          <li className="member-name">NAME</li>
-          <li className="member-name">JAN</li>
-          <li className="member-name">FEB</li>
-          <li className="member-name">MAR</li>
-          <li className="member-name">APR</li>
-          <li className="member-name">MAY</li>
-          <li className="member-name">JUN</li>
-          <li className="member-name">JUL</li>
-          <li className="member-name">AUG</li>
-          <li className="member-name">SEP</li>
-          <li className="member-name">OCT</li>
-          <li className="member-name">NOV</li>
-          <li className="member-name">DEC</li>
+          <li className="member-name">Member 1</li>
+          <li className="member-name">Member 2</li>
+          <li className="member-name">Member 3</li>
+          <li className="member-name">Member 4</li>
         </ul>
           </div>
         </div>
