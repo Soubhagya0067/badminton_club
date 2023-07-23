@@ -29,7 +29,7 @@
   border: 2px solid white;
 }
 .main-container {
-  background-color: red;
+  /* background-color: red; */
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -38,16 +38,16 @@
   width: 90%;
 }
 .left-container {
-  background-color: lightgrey;
+  /* background-color: lightgrey; */
   padding: 10px;
   height: auto;
   width: 70%;
   margin: 10px;
   border-radius: 10px;
-  border: 2px solid white;
+  /* border: 2px solid white; */
 }
 .balance-container {
-  background-color: green;
+  /* background-color: green; */
   padding: 10px;
   display: flex;
   justify-content: space-evenly;
@@ -70,59 +70,68 @@
   padding: 20px;
 }
 .graph-container {
-  background-color: yellow;
+  /* background-color: yellow; */
   padding: 10px;
+  padding-top: 30px;
 }
 .payment-tracker {
   background-color: pink;
   padding: 10px;
   margin: 10px;
-  width: 90%;
+  width: 80%;
+  border-radius: 20px;
+  border: 2px solid white;
 }
 .right-container {
-  background-color: lightgrey;
+  /* background-color: lightgrey; */
   padding: 10px;
   height: auto;
   width: 30%;
   margin: 10px;
   border-radius: 10px;
-  border: 2px solid white;
+  /* border: 2px solid white; */
 }
 .member-container {
-  background-color: green;
+  /* background-color: green; */
   padding: 10px;
   height: 100%;
+  
 }
 .active-members {
-  background-color: purple;
+  background-color: cyan;
   padding: 10px;
   border-radius: 10px;
   border: 2px solid white;
 }
 
 .member-list {
-  background-color: lime;
+  /* background-color: lime; */
   padding: 10px;
   display: grid;
+  margin-top: 10px;
 }
 .member-table {
-  background-color: red;
+  /* background-color: red; */
   display: grid;
+  margin-top: 20px;
 }
 .member-name {
   background-color: lightcyan;
   list-style: none;
-  border: 1px solid;
+  border: 2px solid lightblue;
   padding: 5px;
   font-weight: normal;
+  font-size: 14px;
+  border-radius: 10px;
 }
 .payments {
-  background-color: lime;
+  /* background-color: lime; */
   padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 .payment-table {
   background-color: red;
