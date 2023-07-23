@@ -67,6 +67,7 @@ function Chart() {
 
     return (
         <div className='chart-style'>
+            <h2>Collection tracker</h2>
             <Line data={data} className='line-style'/>
             <Bar data={data} className='bar-style' />
         </div>

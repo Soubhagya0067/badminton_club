@@ -20,7 +20,7 @@ const LeftContainer = () => {
         </div>
       </div>
       <div className="graph-container">
-        <h2>Collection tracker</h2>
+        
         <Chart />
       </div>
       
