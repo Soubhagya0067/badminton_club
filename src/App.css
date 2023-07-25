@@ -262,7 +262,7 @@ white-space: nowrap;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px;
+  padding: 5px 0;
   border-radius: 5px;
   cursor: pointer;
   font-size: 14px;
@@ -393,5 +393,9 @@ white-space: nowrap;
     100% {
       transform: translateX(0px);
     }
+  }
+  .nav-list {
+    font-size: 12px;
+    flex-basis: auto;
   }
 }
