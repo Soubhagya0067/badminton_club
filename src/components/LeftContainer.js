@@ -1,6 +1,6 @@
 import React from "react";
 import CollectionGraph from "./CollectionGraph";
-import Chart from './Chart'
+import Chart from "./Chart";
 
 const LeftContainer = () => {
   return (
@@ -12,18 +12,20 @@ const LeftContainer = () => {
         </div>
         <div className="amount-container">
           <span className="counter">1000</span>
-          Total Expenditure
+          July's Expense
         </div>
         <div className="amount-container">
           <span className="counter">5000</span>
           Total Balance
         </div>
+        <div className="amount-container">
+          <span className="counter">70</span>
+          Total Members
+        </div>
       </div>
       <div className="graph-container">
-        
         <Chart />
       </div>
-      
     </div>
   );
 };
