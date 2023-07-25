@@ -11,11 +11,11 @@ const RightContainer = () => {
           </div>
           <div className="amount-container">
             <span className="counter">15</span>
-            Active Count
+            Active Members
           </div>
           <div className="amount-container">
             <span className="counter">55</span>
-            Defaulters Count
+            Defaulters
           </div>
         </div>
         <div className="detail-members">
